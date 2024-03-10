@@ -10,10 +10,10 @@ financial health and whether they are meeting revenue targets. Keeping a close e
 # Calculations for Measures
 ## Total Month to Date (MTD) Revenue
 
-Current-Month = CALCULATE(
+`Current-Month = CALCULATE(
         SUMX(Transactions,
         Transactions[transaction_qty] * Transactions[unit_price]),
-        DATESMTD('Revenue-Calendar'[Date]))
+        DATESMTD('Revenue-Calendar'[Date]))`
 
 ## Month to Date (MTD) Revenue for Individual Stores
 STOR-101 = CALCULATE(
