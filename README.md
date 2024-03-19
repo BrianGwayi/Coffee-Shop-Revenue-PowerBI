@@ -1,8 +1,10 @@
 
 # Coffee Shop Revenue Performance
 
-This simple Revenue report will help the Client understand their
-financial health and whether they are meeting revenue targets. Keeping a close eye on revenue also help identify growth opportunities, resource allocation and ultimately lead the business to long term Sucess.
+This is a simple revenue report will help the client; a coffee retailer understand their
+financial health and whether they are meeting revenue targets. Keeping a close eye on previous
+month revenue also help identify growth opportunities, resource allocation and ultimately lead
+the business to long term Sucess.
 
 ![PBIDesktop](https://github.com/BrianGwayi/CoffeeShopRevenue-PowerBI/assets/115585139/19b46add-415c-4cb8-8111-9655d44fe189)
 
