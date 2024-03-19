@@ -18,7 +18,7 @@ financial health and whether they are meeting revenue targets. Keeping a close e
 ## Measures
 | Table-Name  | Display-Folder  | Measure-Name | Description | Measure-Expression |
 | :------------ |:---------------:| -----:|:------------| :------------|
-| Measures-Table | ---- | Power Query Table|
+| Measures-Table | Categories | Arabica | ---- | 'Arabica = CALCULATE([Current-Month],Transactions[product_category] = "Arabica"') |
 | | ---- | Calculated Table|
 | | ---- | Power Query Table |
 | | ----  | Power Query Table|
