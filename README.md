@@ -26,7 +26,11 @@ the business to long term Sucess.
 | | | Robusta | ---- | 'Robusta = CALCULATE([Current-Month],Transactions[product_category] = "Robusta"') |
 | | Color-Coding | Previous-Color-Code | ---- | 'Previous-Color-Code = IF([Current-Month] < [Previous-Month], "#FB5C36", "#1ed760")') |
 | | | Target-Color-Code | ---- | 'Target-Color-Code = IF([Current-Month] < [Monthly-Target], "#FB5C36", "#1ed760")') |
-
+| | Indicator-Icons | Icon-Previous | ---- | 'Previous-Color-Code = IF([Current-Month] < [Previous-Month], "#FB5C36", "#1ed760")') |
+| | | Icon-Target | ---- | 'Target-Color-Code = IF([Current-Month] < [Monthly-Target], "#FB5C36", "#1ed760")') |
+| | Store-Color-Coding | STOR1-Color-Code | ---- | 'STOR1-Color-Code = IF([STOR-101] < [STOR-101-Tar], "#FB5C36", "#1ed760")') |
+| | | STOR2-Color-Code | ---- | 'STOR2-Color-Code = IF([STOR-102] < [STOR-102-Tar], "#FB5C36", "#1ed760")') |
+| | | STOR3-Color-Code | ---- | 'Store3-Color-Code = IF([STOR-103] < [STOR-103-Tar], "#FB5C36", "#1ed760")') |
 
 
 ### Month to Date (MTD) Revenue
