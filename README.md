@@ -7,7 +7,7 @@ financial health and whether they are meeting revenue targets. Keeping a close e
 ![PBIDesktop](https://github.com/BrianGwayi/CoffeeShopRevenue-PowerBI/assets/115585139/19b46add-415c-4cb8-8111-9655d44fe189)
 
 ## Measures Calculations
-| Left-Aligned  | Center Aligned  | Right Aligned |
+| Table-Name  | Description  | Table-Type |
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
