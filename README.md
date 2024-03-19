@@ -19,9 +19,13 @@ financial health and whether they are meeting revenue targets. Keeping a close e
 | Table-Name  | Display-Folder  | Measure-Name | Description | Measure-Expression |
 | :------------ |:---------------:| -----:|:------------| :------------|
 | Measures-Table | Categories | Arabica | ---- | 'Arabica = CALCULATE([Current-Month],Transactions[product_category] = "Arabica"') |
-| | ---- | Calculated Table|
-| | ---- | Power Query Table |
-| | ----  | Power Query Table|
+| | | Excelsa | ---- | 'Excelsa = CALCULATE([Current-Month],Transactions[product_category] = "Excelsa"') |
+| | | Liberica | ---- | 'Liberica = CALCULATE([Current-Month],Transactions[product_category] = "Liberica"') |
+| | | Robusta | ---- | 'Robusta = CALCULATE([Current-Month],Transactions[product_category] = "Robusta"') |
+| | Color-Coding | Previous-Color-Code | ---- | 'Previous-Color-Code = IF([Current-Month] < [Previous-Month], "#FB5C36", "#1ed760")') |
+| | | Target-Color-Code | ---- | 'Target-Color-Code = IF([Current-Month] < [Monthly-Target], "#FB5C36", "#1ed760")') |
+
+
 
 ### Month to Date (MTD) Revenue
 
