@@ -16,8 +16,8 @@ financial health and whether they are meeting revenue targets. Keeping a close e
 | Transactions | ----  | Power Query Table|
 
 ## Measures
-| Table-Name  | Display-Folder  | Measure-Name | Description | Measure-Expression
-| :------------ |:---------------:| -----:|
+| Table-Name  | Display-Folder  | Measure-Name | Description | Measure-Expression |
+| :------------ |:---------------:| -----:|:------------| :------------|
 | Measures-Table | ---- | Power Query Table|
 | | ---- | Calculated Table|
 | | ---- | Power Query Table |
