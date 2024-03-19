@@ -6,12 +6,22 @@ financial health and whether they are meeting revenue targets. Keeping a close e
 
 ![PBIDesktop](https://github.com/BrianGwayi/CoffeeShopRevenue-PowerBI/assets/115585139/19b46add-415c-4cb8-8111-9655d44fe189)
 
-## Measures Calculations
+# Documentation
+## Tables
 | Table-Name  | Description  | Table-Type |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| Measures-Table | ---- | Power Query Table|
+| Revenue-Calendar | ---- | Calculated Table|
+| Update-DateTime | ---- | Power Query Table |
+| Transactions | ----  | Power Query Table|
+
+## Measures
+| Table-Name  | Display-Folder  | Measure-Name | Description | Measure-Expression
+| :------------ |:---------------:| -----:|
+| Measures-Table | ---- | Power Query Table|
+| | ---- | Calculated Table|
+| | ---- | Power Query Table |
+| | ----  | Power Query Table|
 
 ### Month to Date (MTD) Revenue
 
