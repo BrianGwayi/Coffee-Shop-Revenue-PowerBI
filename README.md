@@ -33,6 +33,22 @@ the business to long term Sucess.
 | | Store-Color-Coding | STOR1-Color-Code | ---- | 'STOR1-Color-Code = IF([STOR-101] < [STOR-101-Tar], "#FB5C36", "#1ed760")') |
 | | | STOR2-Color-Code | ---- | 'STOR2-Color-Code = IF([STOR-102] < [STOR-102-Tar], "#FB5C36", "#1ed760")') |
 | | | STOR3-Color-Code | ---- | 'Store3-Color-Code = IF([STOR-103] < [STOR-103-Tar], "#FB5C36", "#1ed760")') |
+| | Store-Pct | STOR-101-pct | Revenue contribution % | STOR-101-Pct = 
+
+var MTDRevenue = 
+    CALCULATE([Current-Month],
+        ALL(Transactions))
+
+VAR STOR101 = 
+    CALCULATE([Current-Month],
+    Transactions[store_location] = "STOR-101")
+
+VAR STOR = DIVIDE(STOR101, MTDRevenue)
+
+    RETURN STOR |
+| | | STOR-101-pct | Revenue contribution % | 'STOR1-Color-Code = IF([STOR-101] < [STOR-101-Tar], "#FB5C36", "#1ed760")') |
+| | | STOR-102-pct | Revenue contribution % | 'STOR1-Color-Code = IF([STOR-101] < [STOR-101-Tar], "#FB5C36", "#1ed760")') |
+| | | STOR-103-pct | Revenue contribution % | 'STOR1-Color-Code = IF([STOR-101] < [STOR-101-Tar], "#FB5C36", "#1ed760")') |
 
 
 ### Month to Date (MTD) Revenue
