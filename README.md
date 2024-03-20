@@ -1,4 +1,4 @@
-
+![image](https://github.com/BrianGwayi/Coffee-Shop-Revenue-PowerBI/assets/115585139/4abc23aa-7a86-4a88-b4e6-8008ae05676a)
 # Coffee Shop Revenue Performance
 
 This is a simple revenue report will help the client; a coffee retailer understand their
@@ -6,7 +6,10 @@ financial health and whether they are meeting revenue targets. Keeping a close e
 month revenue also help identify growth opportunities, resource allocation and ultimately lead
 the business to long term Sucess.
 
-![PBIDesktop](https://github.com/BrianGwayi/CoffeeShopRevenue-PowerBI/assets/115585139/19b46add-415c-4cb8-8111-9655d44fe189)
+![PBIDesktop_OlUKNlaaPm](https://github.com/BrianGwayi/Coffee-Shop-Revenue-PowerBI/assets/115585139/33c60224-0e7f-453c-9233-c07c251fdc48)
+
+![PBIDesktop_tu1YirWecQ](https://github.com/BrianGwayi/Coffee-Shop-Revenue-PowerBI/assets/115585139/07a7cbd9-4957-44e3-bc11-f35243ed4fa9)
+
 
 # Documentation
 ## Tables
