@@ -1,6 +1,6 @@
 # Coffee Shop Revenue Performance
 
-This is a simple revenue report will help the client; a coffee retailer understand their
+This simple revenue report will help the client; a coffee retailer understand their
 financial health and whether they are meeting revenue targets. Keeping a close eye on previous
 month revenue also help identify growth opportunities, resource allocation and ultimately lead
 the business to long term Sucess.
