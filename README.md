@@ -1,4 +1,3 @@
-![image](https://github.com/BrianGwayi/Coffee-Shop-Revenue-PowerBI/assets/115585139/4abc23aa-7a86-4a88-b4e6-8008ae05676a)
 # Coffee Shop Revenue Performance
 
 This is a simple revenue report will help the client; a coffee retailer understand their
